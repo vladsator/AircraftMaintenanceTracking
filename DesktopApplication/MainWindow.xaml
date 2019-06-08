@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="Add new plane"></MenuItem>
+            <MenuItem Header="Edit plane"></MenuItem>
+            <MenuItem Header="Remove plane"></MenuItem>
+        </Menu>
+        <ListBox Grid.Row="1"></ListBox>
     </Grid>
 </Window>
